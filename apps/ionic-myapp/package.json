@@ -1,0 +1,21 @@
+{
+  "name": "myapp",
+  "license": "SEE LICENSE IN <your-license-filename>",
+  "version": "0.0.0",
+  "scripts": {
+    "cap.add.ios": "npx cap add ios",
+    "cap.add.android": "npx cap add android",
+    "cap.ios": "npx cap open ios",
+    "cap.android": "npx cap open android",
+    "cap.copy": "npx cap copy",
+    "cap.update": "npx cap update"
+  },
+  "dependencies": {
+    "@capacitor/android": "~2.4.0",
+    "@capacitor/core": "~2.4.0",
+    "@capacitor/ios": "~2.4.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "~2.4.0"
+  }
+}

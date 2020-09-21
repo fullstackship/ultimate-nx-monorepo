@@ -1,0 +1,79 @@
+{
+  "npmScope": "nx-base",
+  "affected": {
+    "defaultBase": "master"
+  },
+  "implicitDependencies": {
+    "workspace.json": "*",
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    "tsconfig.base.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "@nrwl/workspace/tasks-runners/default",
+      "options": {
+        "cacheableOperations": ["build", "lint", "test", "e2e"]
+      }
+    }
+  },
+  "projects": {
+    "ng-app": {
+      "tags": []
+    },
+    "ng-app-e2e": {
+      "tags": [],
+      "implicitDependencies": ["ng-app"]
+    },
+    "react-app": {
+      "tags": []
+    },
+    "react-app-e2e": {
+      "tags": [],
+      "implicitDependencies": ["react-app"]
+    },
+    "vue-app": {
+      "tags": []
+    },
+    "vue-app-e2e": {
+      "tags": [],
+      "implicitDependencies": ["vue-app"]
+    },
+    "libs": {
+      "tags": []
+    },
+    "xplat": {
+      "tags": []
+    },
+    "ionic-myapp": {
+      "tags": []
+    },
+    "ionic-react": {
+      "tags": []
+    },
+    "ionic-react-e2e": {
+      "tags": [],
+      "implicitDependencies": ["ionic-react"]
+    },
+    "ionic-react-cap": {
+      "tags": []
+    },
+    "express-api": {
+      "tags": []
+    },
+    "nest-api": {
+      "tags": []
+    },
+    "web-comp": {
+      "tags": []
+    },
+    "web-comp-e2e": {
+      "tags": [],
+      "implicitDependencies": ["web-comp"]
+    }
+  }
+}
