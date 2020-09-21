@@ -6,7 +6,7 @@ This Github repo is to setup **Ultimate Monorepo project** for Angular, React, I
 
 Just Clone this Github Repo and **'npm install'** if you don't have time to setup one by one.
 
-    - Github : https://github.com/fullstackship/nx-base 
+    - Github : [hub.com/fullstackship/ultimate-nx-monorepo](https://github.com/fullstackship/ultimate-nx-monorepo)
 
 Note that I tested based on Node 12.16.1 version and NPM(6.14.X).
 

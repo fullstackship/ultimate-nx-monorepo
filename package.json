@@ -1,12 +1,12 @@
 {
-  "name": "nx-base",
+  "name": "ultimate-nx-monorepo",
   "version": "1.0.0",
   "license": "MIT",
   "description": "Ultimate Monorepo Project with NX, Xplat and Nxtend",
-  "bugs": "https://github.com/fullstackship/nx-base/issues",
+  "bugs": "https://github.com/fullstackship/ultimate-nx-monorepo/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fullstackship/nx-base"
+    "url": "https://github.com/fullstackship/ultimate-nx-monorepo"
   },
   "engines": {
     "node": ">=12.9.0 <13.0.0",
